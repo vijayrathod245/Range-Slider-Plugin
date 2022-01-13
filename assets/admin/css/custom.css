@@ -1,0 +1,20 @@
+.shortcode-info{
+	font-size: 24px;
+}
+.two-box-main{
+	display: flex;
+	width: 30%;
+	padding-top: 30px;
+}
+.second-box {
+    width: 50%;
+}
+.first-box {
+    width: 100%;
+}
+.first-box span {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.5;
+}

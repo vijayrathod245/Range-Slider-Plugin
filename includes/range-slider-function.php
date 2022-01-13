@@ -1,0 +1,1 @@
+<h2 class="shortcode-info">Use shortcode for range slider: [range_slider]</h2>

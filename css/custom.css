@@ -1,0 +1,48 @@
+/* Range slider */
+.pmd-range-slider .noUi-handle:before,
+.pmd-range-slider.noUi-horizontal .noUi-handle-upper .noUi-tooltip:before, .pmd-range-slider.noUi-horizontal .noUi-handle-lower .noUi-tooltip:before,
+.pmd-range-slider .noUi-tooltip,
+.pmd-range-slider .noUi-connect{
+  background:#ffcc66 !important;
+  color:#676767 !important
+}
+     
+.pmd-range-slider .noUi-pips .noUi-marker-horizontal{
+  background: #c1c0c0 !important;
+}
+
+.range-slid-info input{
+  width:60px !important;
+  border:0px !important;
+  border-bottom:1px solid #ffcc66 !important;
+  text-align:center;
+}
+.pmd-range-slider.noUi-target {
+    margin: 25px 0 6px !important;
+}
+.noUi-handle-upper::before,#value-max,#value-min {
+    display: none !important;
+}
+.noUi-connect, .pmd-range-slider .noUi-base, .noUi-origin {
+    height: 10px;
+	background: #ffcc66 !important;
+}
+.pmd-range-slider .noUi-handle:before {
+    background: #ffcc66 !important;
+    width: 40px !important;
+    height: 40px !important;
+    top: -10px !important;
+}
+.noUi-marker-horizontal.noUi-marker {
+    width: 4px !important;
+    height: 5px !important;
+    top: 8px !important;
+}
+.range-slid-info,.add-button-info {
+  display: flex !important;
+  max-width: 1240px !important;
+}
+.range-slid-info > div {
+  flex: 1 !important; /*grow*/
+}
+/* End range slider */

@@ -1,0 +1,194 @@
+  .slider-box-main {
+    max-width: 100% !important;
+    display: flex;
+    margin: 40px 0;
+  }
+
+  .title-box-info {
+    width: 50%;
+    font-size: 30px;
+  }
+
+  .slide-box-info {
+    width: 70%;
+  }
+
+  .range-slider-main-info {
+    max-width: 100% !important;
+    box-shadow: 0 9px 22px #00000012;
+    border-radius: 30px;
+    padding: 50px;
+  }
+  .num-bold {
+    font-weight: 600;
+  }
+  .savedata {
+    border-radius: 32px;
+    font-size: 18px;
+    background: linear-gradient(#FFDD00, #F98910) !important;
+    padding: 18px 40px;
+  }
+  .total-count-item {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .slide-box-info input {
+    border: 0 !important;
+    top: 16px;
+    position: relative;
+  }
+
+  /*SLIDER RANGE*/
+
+  .slide-box-info input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+  }
+
+  .slide-box-info input[type=range]:focus {
+    outline: none;
+  }
+
+  .slide-box-info input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: #fc0;
+    border-radius: 25px;
+    transition: background 0.1s ease;
+  }
+
+  .slide-box-info input[type=range]::-webkit-slider-thumb {
+    border: 10px solid #fc0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -19px;
+    transition: border 0.1s ease;
+    -webkit-box-shadow: 0px 11px 27px -12px rgba(145, 94, 31, 1);
+    -moz-box-shadow: 0px 11px 27px -12px rgba(145, 94, 31, 1);
+    box-shadow: 0px 11px 27px -12px rgba(145, 94, 31, 1);
+  }
+
+  .slide-box-info input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #007aff;
+    border-radius: 25px;
+    transition: background 0.1s;
+  }
+
+  .slide-box-info input[type=range]::-moz-range-thumb {
+    border: 3px solid #007aff;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -14px;
+    transition: border 0.1s ease;
+  }
+
+  .slide-box-info input[type=range]::-ms-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #007aff;
+    border-radius: 25px;
+    transition: background 0.2s ease;
+  }
+
+  .slide-box-info input[type=range]::-ms-fill-lower {
+    background: #ac51b5;
+    border: 0px solid #000101;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  }
+
+  .slide-box-info input[type=range]::-ms-fill-upper {
+    background: #ac51b5;
+    border: 0px solid #000101;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  }
+
+  .slide-box-info input[type=range]::-ms-thumb {
+    border: 3px solid #007aff;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -14px;
+    transition: border 0.1s;
+  }
+
+  .slide-box-info input[type=range]:focus::-ms-fill-lower {
+    background: #ac51b5;
+  }
+
+  .slide-box-info input[type=range]:focus::-ms-fill-upper {
+    background: #ac51b5;
+  }
+
+  .slide-box-info input[type=range]:hover::-webkit-slider-runnable-track {
+    background: #ffd83c;
+  }
+
+  .slide-box-info input[type=range]:hover::-webkit-slider-thumb {
+    border-color: #ffd83c;
+    -webkit-box-shadow: 0px 6px 27px -12px rgba(145, 94, 31, 1);
+    -moz-box-shadow: 0px 6px 27px -12px rgba(145, 94, 31, 1);
+    box-shadow: 0px 6px 27px -12px rgba(145, 94, 31, 1);
+  }
+
+  .slide-box-info input[type=range]:active::-webkit-slider-runnable-track {
+    background: #ffd83c;
+  }
+
+  .slide-box-info input[type=range]:active::-webkit-slider-thumb {
+    border-color: #ffd83c;
+    -webkit-box-shadow: 0px 6px 27px -12px rgba(145, 94, 31, 1);
+    -moz-box-shadow: 0px 6px 27px -12px rgba(145, 94, 31, 1);
+    box-shadow: 0px 6px 27px -12px rgba(145, 94, 31, 1);
+  }
+
+  .slide-box-info input[type=range]:hover::-moz-range-track {
+    background: #e52e5e;
+  }
+
+  .slide-box-info input[type=range]:hover::-moz-range-thumb {
+    background: #fff;
+    border-color: #e52e5e;
+  }
+
+  .slide-box-info input[type=range]:active::-moz-range-track {
+    background: #e52e5e;
+  }
+
+  .slide-box-info input[type=range]:active::-moz-range-thumb {
+    background: #fff;
+    border-color: #e52e5e;
+  }
+
+  .total-price-info {
+    border-top: 1px solid #eee;
+    padding-top: 20px !important;
+  }
+
+  .modal-body {
+    padding: 0px !important;
+  }
+
+  .modal-body p {
+    padding: 4px 30px;
+  }
